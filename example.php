@@ -25,7 +25,7 @@ else {
 
 // this will be invalid
 $inputs2 = [
-    'name' => 'Dam'
+    'name' => 'Das'
 ];
 
 $validator = new Validator();

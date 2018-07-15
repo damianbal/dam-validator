@@ -146,7 +146,7 @@ class Validator
 
                 if(Validator::validateRule($input, $rule_key, $rule_value, $inputs) == false) {
                     $valid = false;                            // this validate will fail 
-                    $this->invalid_inputs[$input] = $rule_key; // set which input is invalid and which rule
+                    $this->invalid_inputs[$key] = $rule_key; // set which input is invalid and which rule
                  }
             }
         }
